@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main = C program that prints the size of various types on the computer it is compiled 
-*return 0 (Success)
-*lter types 
+* main - Entry point
+* Description: c program
+* Return: always 0 (Success)
 */
 int main(void)
 {
