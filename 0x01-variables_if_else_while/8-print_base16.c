@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-	char ch = 'z';
+	int digit = 48;
 
-while (ch >= 'a')
-{
-putchar(ch);
-ch--;
-}
-putchar('\n');
-
+	while (digit <= 102)
+	{
+		putchar(digit);
+		if (digit == 57)
+			digit += 39;
+		digit++;
+	}
 return (0);
 }
 
