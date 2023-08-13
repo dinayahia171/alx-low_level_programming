@@ -6,12 +6,15 @@
 */
 int main(void)
 {
-int digit = 0;
-while (digit <= 9)
+	char ch = 'z';
+
+while (ch >= 'a')
 {
-	putchar(digit + '0');
-	digit++;
+putchar(ch);
+ch++;
 }
 putchar('\n');
+
 return (0);
 }
+
