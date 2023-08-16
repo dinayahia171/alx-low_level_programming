@@ -14,7 +14,7 @@ for (i = 0; i <= 9; i++)
 _putchar(48);
 for (num = 1; num <= 9; num++)
 {
-_putchar('.');
+_putchar(',');
 _putchar(' ');
 x = i * num;
 if (x <= 9)
