@@ -4,7 +4,8 @@
 
 
 /**
- * print_sign - function print =if n is graeter than zero
+ * print_sign- function print =if n is graeter than zero
+ * @n: take number input
  *
  * Return: Always 1 if + , 0 if 0 and -1
  */
