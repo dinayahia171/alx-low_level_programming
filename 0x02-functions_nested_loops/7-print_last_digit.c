@@ -2,7 +2,8 @@
 
 
 /**
- * print_last_digit - function print last digit of number
+ * print_last_digit- function print last digit of number
+ * @n: takes number input
  * Return: Always lastdigit
  */
 int print_last_digit(int n)
