@@ -16,7 +16,7 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-for (x = 1; x <= n; x++)
+for (x = 1; x <= i; x++)
 -purchar(' ');
 -purchar(92);
 -purchar('\n');
