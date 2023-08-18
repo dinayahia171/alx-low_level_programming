@@ -11,15 +11,15 @@ void print_diagonal(int n)
 int i, x;
 
 if (n <= 0)
--purchar('\n');
+_purchar('\n');
 else
 {
 for (i = 1; i <= n; i++)
 {
 for (x = 1; x <= i; x++)
--purchar(' ');
--purchar(92);
--purchar('\n');
+_purchar(' ');
+_purchar(92);
+_purchar('\n');
 }
 }
 }
