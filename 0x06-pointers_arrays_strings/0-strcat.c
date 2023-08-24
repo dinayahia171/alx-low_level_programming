@@ -6,7 +6,7 @@
  * @dest: pointer
  * @src: pointer
  *
- * Return: Always 0.
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 int c, i;
 
 c = 0;
-while (dest[c]
+while (dest[c])
 c++;
 
 for (i = 0; src[i]; i++)
