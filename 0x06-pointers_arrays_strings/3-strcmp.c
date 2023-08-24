@@ -6,7 +6,7 @@
  * @s1: pionter
  * @s2:pionter
  *
- * Return: Always 0.
+ * Return: Always 1.
  */
 int _strcmp(char *s1, char *s2)
 {
