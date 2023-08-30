@@ -16,7 +16,7 @@ return (square(n, 1));
 /**
  * square- square root
  * @v: square root
- * Return: square 
+ * Return: square
  */
 int square(int n, int v)
 {
