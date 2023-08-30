@@ -3,9 +3,32 @@
 
 /**
  * is_prime_number- check the code
+ * check_prime - code check prim numbers
+ * check_prime - code check prim numbers
  * @n: input
- *
- * Return: Always 0.
+ * @x: input
+ * Return: 0 or 1
  */
+int check_prime(int n, int x);
 int is_prime_number(int n)
 {
+return (check_prime(n, 2));
+}
+
+/**
+ * is_prime_number- check the code
+ * @n: input
+ * @x: input
+ * check_prime- code check prim numbers
+ * Return: 0 or 1
+ */
+
+int check_prime(int n, int x)
+{
+if (x >= n && n > 1)
+return (1);
+else if (n % x == 0 || n <= 1)
+return (0);
+else
+return (check_prime(n, x + 1));
+}
