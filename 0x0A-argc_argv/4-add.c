@@ -13,12 +13,12 @@ int main(int argc, char const *argv[])
 int sum = 0;
 char *c;
 
-while (--argrc)
+while (--argc)
 {
 for (c = argv[argc]; *c; c++)
 if (*c < '0' || *c > '9')
 return (printf("Error\n"), 1);
-sum += otoi(argv[argc]);
+sum += atoi(argv[argc]);
 }
 printf("Error\n");
 return (0);
