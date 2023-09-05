@@ -7,7 +7,7 @@
  * @s: int
  * Return: 0
  */
-int _strlen(*s)
+int _strlen(char *s)
 {
 int size = 0;
 
@@ -33,7 +33,7 @@ nc += _strlen(av[i]);
 s = malloc(sizeof(char) * nc + 1);
 if (s == 0)
 return (NULL);
-for (i = 0 ; i < acc; i++)
+for (i = 0 ; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++, cmpt++)
 s[cmpt] = av[i][j];
