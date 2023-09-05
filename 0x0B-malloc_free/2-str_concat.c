@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * _strlen- print program
- * @s2: string 
+ * @s2: string
  * @s: string
  * @s1: string
  * Return: 0
