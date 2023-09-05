@@ -3,9 +3,7 @@
 #include "main.h"
 /**
  * _strlen- print program
- * @s2: string
  * @s: string
- * @s1: string
  * Return: 0
  */
 int _strlen(char *s)
@@ -21,7 +19,6 @@ return (size);
  * str_concat- print program
  * @s1: string
  * @s2: string
- * @s: string
  * Return: pointer
  */
 char *str_concat(char *s1, char *s2)
