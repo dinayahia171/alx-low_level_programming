@@ -6,7 +6,7 @@
  * @separator: string seperator
  * @n: number of arguments
  * @...: int
- * main: check code
+ * 
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
