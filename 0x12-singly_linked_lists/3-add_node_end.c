@@ -17,7 +17,7 @@ return (NULL);
 
 if (str)
 {
-new_head->str = strdup(str);
+new_node->str = strdup(str);
 if (!new_node->str)
 {
 free(new_node);
