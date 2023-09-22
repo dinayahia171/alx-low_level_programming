@@ -2,14 +2,14 @@
 #include "stdio.h"
 
 /**
- * print_numbers- check the code
+ * print_strings- check the code
  * @separator: string seperator
  * @n: number of arguments
  * @...: int
  * 
  * Return: void
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 int i = n;
 char *str;
