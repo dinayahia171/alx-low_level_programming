@@ -3,8 +3,8 @@
 
 /**
  * is_prime_number- check the code
- * check_prime - code check prim numbers
- * check_prime - code check prim numbers
+ * check_prime- code check prim numbers
+ * check_prime- code check prim numbers
  * @n: input
  * @x: input
  * Return: 0 or 1
@@ -16,10 +16,11 @@ return (check_prime(n, 2));
 }
 
 /**
- * is_prime_number- check the code
+ * check_prime - check all the numbers < n if they can divided
  * @n: input
  * @x: input
  * check_prime- code check prim numbers
+ * check_prime - function code
  * Return: 0 or 1
  */
 
