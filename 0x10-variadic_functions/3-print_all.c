@@ -47,8 +47,7 @@ printf("%s%s", separator, str);
 }
 /**
  * print_all- check the code
- * @separator: string seperator
- * @formt: number of arguments
+ * @format: number of arguments
  */
 
 void print_all(const char * const format, ...)
@@ -66,11 +65,11 @@ token_t token[] = {
 };
 va_start(ap, format);
 while (format && format[i])
-}
+{
 j = 0;
 while (tokens[j].token)
 {
-if (formal[i] == token[j].token[0])
+if (format[i] == token[j].token[0])
 {
 tokens[j].f(separator, ap);
 separator = ", ";
