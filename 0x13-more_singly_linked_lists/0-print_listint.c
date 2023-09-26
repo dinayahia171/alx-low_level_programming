@@ -11,9 +11,9 @@ size_t i = 0;
 
 while (h)
 {
-print("%d/n", h->n);
+printf("%d/n", h->n);
 h = h->next;
-i++
+i++;
 }
 return (i);
 }
