@@ -8,10 +8,12 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int xorval n ^ m;
+	unsigned long int xorval = n ^ m;
 	unsigned int count = 0;
 
-while (xorval & 1ul)
+while (xorval)
+{
+if (xorval & 1ul)
 count++;
 xorval = xorval >> 1;
 }
